@@ -19,3 +19,8 @@ function out(element){
         element.style.backgroundColor = "red"   
  }
 
+ var likesNum = document.querySelector('.num');
+function add(){
+    likesNum.innerText = parseInt(likesNum.innerText)+1;
+}
+
