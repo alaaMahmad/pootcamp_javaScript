@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topNav{
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 0 10%;
+}
+
+.nav-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.search{
+    width: 250px;
+    height: 32px;
+    border-radius: 3px;
+    padding: 0 12px;
+    border: 2px solid #333;
+}
+
+.btn{
+    background-color: #2b79e1;
+    color: white;
+    border: 3px solid #030303;
+    padding: 5px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0px #767676;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px 10%;
+}
+
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 25px;
+}
+
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+
+.card_1{
+    border: 3px solid #030303;
+    background: white;
+    padding: 24px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-content{
+    display: flex;
+    width: 100%;
+    gap: 70px;
+}
+
+.card-left{
+    text-align: center;
+}
+
+.card-right{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.word{
+    font-size: 48px;
+    font-weight:500;
+    margin-bottom: 4px;
+}
+
+.noun{
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.plural{
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
+.definition{
+    font-size: 23px;
+   
+}
+
+.highlight{
+    color: #20598c;
+    text-decoration: underline;
+}
+
+.like-btn{
+    background-color: #fdd967;
+    color: black;
+    border: 3px solid;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: 3px 3px 0px #767676;
+  
+}
+
+
+.card_2{
+    border: 3px solid #030303;
+    background: white;
+    padding: 24px;
+    height: auto;
+    
+}
+
+.right-title {
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 40px;
+}
+
+.add-btn {
+    background-color: #92c37d;
+    color:black;
+    border: 3px solid #030303;
+    width: 100%;
+    padding: 14px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px #767676;
+}
+.extra{
+    margin-top: 20px;
+    background-color: red;
+    height: 200px;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}

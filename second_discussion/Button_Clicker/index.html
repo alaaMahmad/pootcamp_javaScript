@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dojonary</title>
+  </head>
+  <body>
+    <div class="topNav">
+      <h1 class="nav-title">Dojonary</h1>
+      <input type="text" class="search" placeholder="Search" />
+      <button class="btn" onclick="login(this)">Login</button>
+    </div>
+
+    <div class="container">
+      <div class="leftSide">
+        <div class="card_1">
+          <div class="card-content">
+            <div class="card-left">
+              <div>
+                <h2 class="word">ninja</h2>
+                <p class="noun">noun</p>
+                <p class="plural">Plural: ninjas</p>
+              </div>
+              <button class="like-btn" onclick="alert('ninja was clicked')">
+                13 likes
+              </button>
+            </div>
+            <div class="card-right">
+              <p class="definition">
+                A practitioner skilled in the
+                <span class="highlight">Japanese</span>
+                art of
+                <span class="highlight">ninjutsu</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="card_1">
+          <div class="card-content">
+            <div class="card-left">
+              <h2 class="word">ninja</h2>
+              <p class="noun">noun</p>
+              <p class="plural">Plural: ninjas</p>
+              <button class="like-btn" onclick="alert('ninja was clicked')">
+                37 likes
+              </button>
+            </div>
+            <div class="card-right">
+              <p class="definition">
+                A <span class="highlight">programmer</span> who breaks down
+                problems with <span class="highlight">zen</span>-like focus
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rightSide">
+        <div class="card_2">
+          <div class="right-card-content">
+            <h3 class="right-title">
+              Dojonary is defined by <strong>YOU</strong>
+            </h3>
+            <button class="add-btn" onclick="remove(this)">
+              Add Definition
+            </button>
+          </div>
+        </div>
+        <div class="extra" onmouseover="over(this)" onmouseout="out(this)">
+          <p>this DIV for onmouseover and onmouseout events</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
