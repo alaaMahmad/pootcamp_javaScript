@@ -39,7 +39,7 @@ function randomPizza() {
 
     function randomItems(list, maxCount) {
        
-        var count = maxCount;
+        var count = Math.floor(Math.random() * maxCount) + 1;
         var picked = [];
         
         while (picked.length < count) {
