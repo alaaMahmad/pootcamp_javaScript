@@ -1,4 +1,4 @@
-# VideoLab - Video Previewer
+# Video Preview
 
 This is a project to practice JavaScript event handlers.
 

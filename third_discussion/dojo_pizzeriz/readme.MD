@@ -1,4 +1,4 @@
-# PizzaOven - Dynamic Pizza Creator
+# dojo pizzeriz
 
 This is a project to practice JavaScript objects and random data generation techniques.
 
