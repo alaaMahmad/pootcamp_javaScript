@@ -44,7 +44,9 @@ function randomPizza() {
         
         while (picked.length < count) {
             var item = randomItem(list); 
+            if(!picked.includes(item)){
                 picked.push(item);
+            }  
         }
         return picked;
     }
