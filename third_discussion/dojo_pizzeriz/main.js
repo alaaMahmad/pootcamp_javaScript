@@ -32,10 +32,6 @@ function randomPizza() {
     var cheeses = ["mozzarella", "feta", "cheddar", "parmesan", "provolone"];
     var toppings = ["pepperoni", "sausage", "mushrooms", "olives", "onions", "spinach"];
 
-    function randomItem(list) {
-        return list[Math.floor(Math.random() * list.length)];
-    }
-
 
     function randomItems(list, maxCount) {
        
@@ -43,7 +39,7 @@ function randomPizza() {
         var picked = [];
         
         while (picked.length < count) {
-            var item = randomItem(list); 
+            var item = list[Math.floor(Math.random() * list.length)]; 
             if(!picked.includes(item)){
                 picked.push(item);
             }  
@@ -52,8 +48,8 @@ function randomPizza() {
     }
 
     return pizzaFactory(
-        randomItem(crusts),
-        randomItem(sauces),
+        randomItems(crusts,1),
+        randomItems(sauces,1),
         randomItems(cheeses, 2),  
         randomItems(toppings, 4) 
     );
