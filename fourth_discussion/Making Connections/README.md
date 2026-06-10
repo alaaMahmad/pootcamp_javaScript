@@ -12,7 +12,7 @@ This is a project to managing independent element data using JavaScript event ha
 - I used `.querySelector()` to target and swap image sources (`src`) dynamically alongside text elements.
 - I applied clean CSS rules like `.actions i { cursor: pointer; }` to maintain user experience hover indicators without cluttering HTML tags.
 
-## How the JavaScript Works:
+## How the Works:
 
 1. **Profile Editing (`changeNmae`)** - When the edit profile link is clicked, the function captures the current user text. If it reads "Alaa Ahmad", it updates the field to "Bara Salah" and swaps the image source to `./images/another_avatar.jpg`. Otherwise, it toggles both values cleanly back to their initial state.
 
