@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.nav-title {
+    color: white;
+    font-size: 28px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;   
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    border: 1px solid #11798a;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin: 40px auto;
+    gap: 25px;
+}
+
+.left-side {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.right-side {
+   width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.card {
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
+}
+
+.card-header {
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.card-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+.profile-card {
+    position: relative;
+}
+
+.banner {
+    background-color: #17a2b8;
+    height: 110px;
+    width: 100%;
+}
+
+.content {
+    padding: 65px 25px 25px 25px;
+    position: relative;
+}
+
+.avatar-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top: -55px; 
+}
+
+.name {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-size: 14px;
+   
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.tagline, .bio {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.bio {
+    margin-bottom: 18px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.edit a {
+    color: #0c5394; 
+    font-weight: bold;
+}
+
+.gear-icon {
+    color: #0c5394;
+}
+
+/* Education caed*/
+.edu-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.edu-dates {
+    color: #6b6b6b;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.edu-desc {
+    font-size: 16px;
+}
+
+.Connection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+}
+
+
+
+
+.num_of {
+    color: black;
+    background-color: #cccccc;
+    border-radius:50%;
+    padding: 2px 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.list-body {
+    padding: 0;
+}
+
+.connection-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-icon {
+    font-size: 24px; 
+}
+
+.user-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+}
+.actions i{
+    cursor: pointer;
+}
+
+
+.view-more {
+    border-top: 2px solid grey;
+    padding: 12px 15px;
+}
+
+.view-more a {
+    color: #0c5394;
+    font-weight: bold;
+    font-size: 14px;
+}

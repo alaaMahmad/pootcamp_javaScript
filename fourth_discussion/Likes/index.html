@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Network Feed Wireframe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="network-header">
+      <h1>Network</h1>
+    </div>
+
+    <div class="app-wrapper">
+      <h2 class="feed-title">Your Feed</h2>
+
+      <div class="content-container">
+        <div class="profile-box">
+          <div class="avatar-circle">
+            <img src="images/avatar.jpg" alt="User Profile Avatar" />
+          </div>
+          <a href="#" class="avatar-link">Add an avatar</a>
+          <div class="profile-name">Alaa Ahmad</div>
+        </div>
+
+        <div class="posts-list">
+          <div class="post-card">
+            <div class="post-header">
+              <span class="author-name">Bara</span>
+              <div class="interaction-group">
+                <p class="like-counter">
+                  <span id="like-neil">9</span> like(s)
+                </p>
+                <button class="like-button" onclick="onclicked('like-neil')">
+                  Like
+                </button>
+              </div>
+            </div>
+            <p class="post-body">
+              I just set up this new discord bot, let me know what you all
+              think. <a href="#">link</a>
+            </p>
+          </div>
+
+          <div class="post-card">
+            <div class="post-header">
+              <span class="author-name">Yazan</span>
+              <div class="interaction-group">
+                <p class="like-counter">
+                  <span id="like-yazan">12</span> like(s)
+                </p>
+                <button class="like-button" onclick="onclicked('like-yazan')">
+                  Like
+                </button>
+              </div>
+            </div>
+            <p class="post-body">
+              Just finished my <a href="#">next comic</a>, check it out.
+            </p>
+          </div>
+
+          <div class="post-card">
+            <div class="post-header">
+              <span class="author-name">Maryan</span>
+              <div class="interaction-group">
+                <p class="like-counter">
+                  <span id="like-maryan">9</span> like(s)
+                </p>
+                <button class="like-button" onclick="onclicked('like-maryan')">
+                  Like
+                </button>
+              </div>
+            </div>
+            <p class="post-body">
+              I can't stop listening to the <a href="#">new album</a>. Who else
+              is liking it?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

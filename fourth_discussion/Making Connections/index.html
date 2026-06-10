@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b14dca9889.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-links">
+        <h1 class="nav-title">Profile</h1>
+        <a href="#">Home</a>
+        <a href="#" class="active">My Profile</a>
+        <a href="#">Find Connections</a>
+      </div>
+      <button class="btn">Sign Out</button>
+    </div>
+
+    <div class="container">
+      <div class="left-side">
+        <div class="card profile-card">
+          <div class="banner"></div>
+          <div class="content">
+            <img
+              src="./images/avatar.jpg"
+              alt="My Picture"
+              class="avatar-img"
+            />
+            <h1 class="name">Alaa Ahmad</h1>
+            <div class="location">
+              <span class="pin-icon"
+                ><i class="fa-solid fa-location-dot"></i
+              ></span>
+              palestine
+            </div>
+            <p class="tagline">Developer | Engineer | Problem Solver</p>
+            <p class="bio">Master of shadows and the Internet!</p>
+            <div class="edit">
+              <span class="gear-icon"><i class="fa-solid fa-gear"></i></span>
+              <a href="#" onclick="changeNmae()">edit profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Education</h2>
+          </div>
+          <div class="card-body">
+            <h3 class="edu-title">Coding Dojo - Full Stack Bootcamp</h3>
+            <p class="edu-dates">Dec 2019 - Mar 2020</p>
+            <p class="edu-desc">Triple black belt in Python, MERN, and C#...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="card">
+          <div class="card-header Connection">
+            <span class="num_of" id="num_of_requsets">2</span>
+            <h2>Connection Requests</h2>
+          </div>
+          <div class="card-body list-body">
+            <div class="connection-item" id="michael-connection-item">
+              <div class="user-info">
+                <span class="user-icon"
+                  ><i class="fa-solid fa-circle-user"></i
+                ></span>
+                <span class="user-name">michael</span>
+              </div>
+              <div class="actions">
+                <i
+                  class="fa-solid fa-circle-check"
+                  onclick="addConnection('michael-connection-item')"
+                ></i>
+                <i
+                  class="fa-solid fa-circle-xmark"
+                  onclick="removeConnection('michael-connection-item')"
+                ></i>
+              </div>
+            </div>
+            <div class="connection-item" id="Yazan-connection-item">
+              <div class="user-info">
+                <span class="user-icon">
+                  <i class="fa-solid fa-circle-user"></i>
+                </span>
+                <span class="user-name">Yazan</span>
+              </div>
+              <div class="actions">
+                <i
+                  class="fa-solid fa-circle-check"
+                  onclick="addConnection('Yazan-connection-item')"
+                ></i>
+                <i
+                  class="fa-solid fa-circle-xmark"
+                  onclick="removeConnection('Yazan-connection-item')"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header Connection">
+            <span class="num_of" id="num_of_connection">500</span>
+            <h2>Your Connections</h2>
+          </div>
+          <div class="card-body list-body">
+            <div class="connection-item">
+              <div class="user-info">
+                <span class="user-icon"
+                  ><i class="fa-solid fa-circle-user"></i
+                ></span>
+                <span class="user-name">Bara</span>
+              </div>
+            </div>
+            <div class="connection-item">
+              <div class="user-info">
+                <span class="user-icon"
+                  ><i class="fa-solid fa-circle-user"></i
+                ></span>
+                <span class="user-name">Maryan</span>
+              </div>
+            </div>
+            <div class="connection-item">
+              <div class="user-info">
+                <span class="user-icon"
+                  ><i class="fa-solid fa-circle-user"></i
+                ></span>
+                <span class="user-name">Manar</span>
+              </div>
+            </div>
+            <div class="connection-item">
+              <div class="user-info">
+                <span class="user-icon"
+                  ><i class="fa-solid fa-circle-user"></i
+                ></span>
+                <span class="user-name">sally</span>
+              </div>
+            </div>
+            <div class="view-more">
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

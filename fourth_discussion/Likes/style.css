@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+.network-header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;  
+    width: 950px;
+    margin: 0 auto 20px auto; 
+}
+
+.network-header h1 {
+    color: white;
+    font-size: 32px;
+  
+}
+
+.app-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.feed-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.profile-box {
+    border: 3px solid #000000;
+    padding: 25px 20px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.avatar-circle {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.avatar-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+           
+}
+
+.avatar-link {
+    color: #0056b3;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.profile-name {
+    font-size: 25px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.posts-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-card {
+    border: 3px solid #000000;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.author-name {
+    font-size: 24px;
+}
+
+.interaction-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.like-counter {
+    font-size: 17px;
+}
+
+.like-button {
+    background-color: #ffcc4d; 
+    color: #000000;
+    border: 3px solid #000000;
+    padding: 6px 18px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 4px;
+}
+
+.like-button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px #000000;
+}
+
+.post-body {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.post-body a {
+    color: #0056b3;
+    text-decoration: underline;
+}
