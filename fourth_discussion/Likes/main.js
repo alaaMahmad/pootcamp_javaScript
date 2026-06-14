@@ -1,4 +1,4 @@
 function onclicked(id) {
-  const counterNode = document.getElementById(id);
-  counterNode.innerText = parseInt(counterNode.innerText) + 1;
+  const num_likes = document.getElementById(id);
+  num_likes.innerText = parseInt(num_likes.innerText) + 1;
 }
