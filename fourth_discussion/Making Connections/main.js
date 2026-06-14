@@ -1,4 +1,4 @@
-function changeNmae() {
+function changeName() {
   var name = document.querySelector(".name");
   var image = document.querySelector(".avatar-img");
 
